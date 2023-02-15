@@ -1,0 +1,60 @@
+body {
+    background: rgb(230, 225, 225);
+}
+
+.bio-container {
+    height: auto;
+    margin: 10% 25% 3% 25%;
+    border: 2px solid red;
+}
+
+.bio {
+    margin: 20px;
+}
+
+.bio-title{
+    margin: 10px;
+}
+
+.nav-container {
+    padding: 20px;
+    background-color: none;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav  a{
+    width: 129px;  
+    padding: 20px;
+    border: 2px solid red;
+    align-items: center;
+    font-size: auto;
+    color: #c73939;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    position: relative;
+    margin: 20px;
+    
+}
+
+.nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.nav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.nav a:link {
+    text-decoration: none;
+}
